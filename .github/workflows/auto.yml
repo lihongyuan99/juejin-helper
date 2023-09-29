@@ -24,6 +24,7 @@ jobs:
     steps:
       - uses: actions/checkout@v2
       - uses: actions/setup-node@v2
+      - uses: gautamkrishnar/keepalive-workflow@v1 # using the workflow with default settings
       - name: Run Project
         run: |
           cd workflows
