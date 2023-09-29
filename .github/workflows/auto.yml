@@ -37,7 +37,7 @@ jobs:
       - name: KeepAlive
         uses: gautamkrishnar/keepalive-workflow@master
         with: 
-          repo-token: ${{ secrets.GITHUB_TOKEN }}
+          repo-token: ${{ secrets.MY_TOKEN }}
           trigger-workflow: Auto
 #  SeaGold:
 #    needs: CheckIn
