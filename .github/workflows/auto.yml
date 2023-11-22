@@ -35,7 +35,7 @@ jobs:
     steps:
       - uses: actions/checkout@v2
       - name: KeepAlive
-        uses: gautamkrishnar/keepalive-workflow@master
+        uses: lihongyuan99/keepalive-workflow@master
         with: 
           repo-token: ${{ secrets.MY_TOKEN }}
           trigger-workflow: Auto
