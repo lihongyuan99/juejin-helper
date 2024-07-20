@@ -11,6 +11,7 @@ env:
   COOKIE_3: ${{ secrets.COOKIE_3 }}
   COOKIE_4: ${{ secrets.COOKIE_4 }}
   COOKIE_5: ${{ secrets.COOKIE_5 }}
+  COOKIE_6: ${{ secrets.COOKIE_6 }}
   EMAIL_USER: ${{ secrets.EMAIL_USER }}
   EMAIL_PASS: ${{ secrets.EMAIL_PASS }}
   EMAIL_TO: ${{ secrets.EMAIL_TO }}
