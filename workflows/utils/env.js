@@ -8,6 +8,7 @@ module.exports = {
   COOKIE_3: env.COOKIE_3,
   COOKIE_4: env.COOKIE_4,
   COOKIE_5: env.COOKIE_5,
+  COOKIE_6: env.COOKIE_6,
   /**
    * 邮箱配置
    * user 发件人邮箱, pass, 发件人密码, to收件人
